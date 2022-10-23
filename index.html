@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style/style.css" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.5.min.js"></script>
+<script type="text/javascript" src="js/settings.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<!-- Page Title -->
+<title>Start Page</title>
+<style type="text/css">
+body {
+	background: url(images/fond.jpg) repeat;
+}
+</style>
+</head>
+<body>
+<div id="head">
+<div id="titre">
+<a class="lien" href="http://www.elie-n.com/">ELIEN</a>
+<a class="lien" href="http://www.gmail.com/">Gmail</a>
+<a class="lien" href="http://www.lemonde.fr/">Le Monde</a>
+<a class="lien" href="http://www.youtube.com/">Youtube</a>
+<a class="lien" href="http://www.twitch.tv">Twitch</a>
+<a class="lien" href="http://www.reddit.com">Reddit</a>
+</div>
+
+<div id="date"> 
+  <script type="text/javascript">
+
+function makeArray() {
+for (i = 0; i<makeArray.arguments.length; i++)
+this[i + 1] = makeArray.arguments[i];
+}
+
+var months = new makeArray('January','February','March','April','May',
+'June','July','August','September','October','November','December');
+var date = new Date();
+var day = date.getDate();
+var month = date.getMonth() + 1;
+var yy = date.getYear();
+var year = (yy < 1000) ? yy + 1900 : yy;
+
+document.write(day + " " + months[month] + " " + year);
+</script> 
+</div>
+</div>
+
+<abruzzi> 
+Pratique 
+https://particuliers.societegenerale.fr/ || Societe Générale 
+http://www.lefooding.com/guide-restaurant-paris-france/ || Le Fooding 
+https://remotedesktop.google.com/access/ || Remote Desktop 
+https://www.etoro.com/ || Etoro
+https://www.scribens.fr/ || Scribens
+https://www.chess.com/home || Chess
+    
+Refs 
+http://elie-n.tumblr.com || elie-n blog
+http://www.archdaily.com || ArchDaily
+https://www.ronenbekerman.com || Ronen Bekerman
+http://onsomething.tumblr.com || On Something 
+http://digitalvanity.me/ || Digital Vanity 
+
+Info
+http://www.lequipe.fr/ || L'equipe
+http://www.sofoot.com/ || So Foot
+http://www.viedemerde.fr/ || VDM 
+http://www.secouchermoinsbete.fr/ || Se Coucher
+https://www.facebook.com/ || Facebook
+
+
+Médias
+https://open.spotify.com/ || Spotify
+http://www.deezer.com/ || Deezer
+https://www.reddit.com/r/soccerstreams/ || Soccer Stream 
+https://sport.francetvinfo.fr/ || FTV Sport
+http://www.allocine.fr/ || AlloCiné 
+http://www.imdb.com/ || IMDB 
+http://www.kongregate.com/ || Kongregate
+</abruzzi>
+
+
+<script type="text/javascript">
+    
+    $(window).load(function() {
+        $('#slider').nivoSlider({ borderRadius: 5 });
+    });   
+</script> 
+<script type="text/javascript">
+$('body').hide();
+$('body').fadeIn(2000);
+</script> 
+
+</body>
+</html>
