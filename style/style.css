@@ -3,7 +3,7 @@ body {
 	/* Page background */
 	color: #303333;											/* Font color */
 	margin: 0;
-	font-family: 'FuturaStd', sans-serif;                    	/* Font */	                 /* Text Shadow */
+	font-family: "futura Std", sans-serif;                    	/* Font */	                 /* Text Shadow */
 }
 a {
 	color: #303333;											/* Link Color */
@@ -87,7 +87,7 @@ ul li:hover {
 }
 #date {
 	margin-top: 25px;
-	font-family: 'FuturaStd', sans-serif;
+	font-family: "futura Std", sans-serif;
 	font-size: 18px;
 	font-variant: small-caps;
 	font-weight: 100;
@@ -116,7 +116,7 @@ ul li:hover {
 	padding-right: 10px;
 	margin-bottom: 45px;
 	height: 120px;
-	font-family: futura Std, sans-serif;
+	font-family: "futura Std", sans-serif;
 	font-size: 14px;
 	font-variant: small-caps;
 	-moz-transition: .3s linear;
@@ -132,7 +132,7 @@ ul li:hover {
 	left: 70%;
 	font-size: 75px;
 	
-	font-family: futura Std, sans-serif;
+	font-family: "futura Std", sans-serif;
 	font-variant: small-caps;
 	font-weight: 100;
 	-moz-transition: .3s linear;
