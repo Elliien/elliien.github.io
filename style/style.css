@@ -93,7 +93,7 @@ ul li:hover {
 	font-weight: 100;
 	float: right;
 	margin-right: 30px;
-	margin-top: 45px;
+	margin-top: 70px;
 	-moz-transition: .3s linear;
 	-webkit-transition: .3s linear;
 	text-align: right;
@@ -128,7 +128,7 @@ ul li:hover {
 }
 #clock {
 	position: absolute;
-	top: 20px;
+	top: 40px;
 	left: 70%;
 	font-size: 75px;
 	
@@ -151,7 +151,7 @@ ul li:hover {
 	position: absolute;
 	top: 80px;
 	left: 20px;	
-        width: 40%;             /* from right edge */
+        width: 60%;             /* from right edge */
 }
 .lien {
 	font-size:20px;
