@@ -5,7 +5,7 @@ body {
 	margin: 0;
 	font-family: "futura", sans-serif;                    	/* Font */	                 /* Text Shadow */
 }
-a {
+a { 
 	color: #303333;											/* Link Color */
 	/* Text Shadow */
 	font-size: 14px;										/* Link Size */
