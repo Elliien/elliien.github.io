@@ -87,7 +87,7 @@ ul li:hover {
 }
 #date {
 	margin-top: 25px;
-	font-family: "futura Std", sans-serif;
+	font-family: "futura", sans-serif;
 	font-size: 18px;
 	font-variant: small-caps;
 	font-weight: 100;
@@ -99,7 +99,7 @@ ul li:hover {
 	text-align: right;
 }
 #day {
-	font-family: 'FuturaStd', sans-serif;
+	font-family: "futura", sans-serif;
 	font-size: 90px;
 	font-weight: 100;
 	margin-top: 10px;
@@ -116,7 +116,7 @@ ul li:hover {
 	padding-right: 10px;
 	margin-bottom: 45px;
 	height: 120px;
-	font-family: "futura Std", sans-serif;
+	font-family: "futura", sans-serif;
 	font-size: 14px;
 	font-variant: small-caps;
 	-moz-transition: .3s linear;
@@ -132,7 +132,7 @@ ul li:hover {
 	left: 70%;
 	font-size: 75px;
 	
-	font-family: "futura Std", sans-serif;
+	font-family: "futura", sans-serif;
 	font-variant: small-caps;
 	font-weight: 100;
 	-moz-transition: .3s linear;
